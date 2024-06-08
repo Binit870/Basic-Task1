@@ -10,16 +10,17 @@ body {
 html {
     scroll-behavior: smooth;
 }
+/* Styling header section  */
 header {
     background: linear-gradient(to right, rgb(157, 175, 34), rgb(228, 44, 75), rgb(241, 123, 39));
     color: white;
-    padding: 0.5rem 0; /* Adjusted padding */
+    padding: 0.5rem 0; 
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 1rem;
 }
 
 header .container {
@@ -32,15 +33,15 @@ header .container {
 }
 
 header .logo img {
-    width: 80px; /* Adjusted size */
-    height: 60px; /* Adjusted size */
-    border-radius: 50%; /* Adjusted size */
+    width: 80px;
+    height: 60px; 
+    border-radius: 50%; 
     margin-right: 1rem;
 }
 
 header h1 {
     flex-grow: 1;
-    font-size: 1.7rem; /* Adjusted font size */
+    font-size: 1.7rem;
 }
 
 header nav ul {
@@ -58,8 +59,8 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 0.25rem 1rem; /* Adjusted padding */
-    font-size: 1.2rem; /* Adjusted font size */
+    padding: 0.25rem 1rem;
+    font-size: 1.2rem; 
 }
 
 header nav ul li a:hover {
@@ -69,11 +70,11 @@ header nav ul li a:hover {
    font:bold;
    color:rgb(19, 248, 7);
 }
-
+/* Adding padding to container for better display */
 .container {
-    padding-top: 80px; /* Adjust this value based on the header height to prevent content from being hidden */
+    padding-top: 80px; 
 }
-
+/* Styling about section  */
 #about {
     background: linear-gradient(to left,  rgb(152, 12, 38), rgb(129, 58, 8));
     color: white;
@@ -107,11 +108,12 @@ header nav ul li a:hover {
 #about a:hover{
     color:rgb(19, 248, 7);
 }
+/* Styling products section  */
 #products {
     background: linear-gradient(to right,  rgb(125, 11, 32), rgb(97, 46, 11));
     padding: 2rem;
     text-align: center;
-    color: white; /* Ensure text is readable on background image */
+    color: white; 
 }
 
 #products .container {
@@ -131,7 +133,7 @@ header nav ul li a:hover {
 }
 
 .product-item {
-    background: linear-gradient(to left,  rgb(152, 12, 38), rgb(129, 58, 8)); /* Semi-transparent background for readability */
+    background: linear-gradient(to left,  rgb(152, 12, 38), rgb(129, 58, 8));
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -145,7 +147,7 @@ header nav ul li a:hover {
 .product-item h3 {
     margin: 1rem 0 0.5rem;
 }
-
+/* Styling contact section  */
 #contact {
     background: linear-gradient(to left,  rgb(162, 20, 46), rgb(162, 74, 12));
     padding: 5rem 1rem;
@@ -165,7 +167,7 @@ header nav ul li a:hover {
 #contact form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align form elements */
+    align-items: center; 
     gap: 1rem;
 }
 
@@ -191,16 +193,16 @@ header nav ul li a:hover {
 #contact form button:hover {
     background-color: #45a049;
 }
-
+/* Styling footer section */
 footer {
     background: linear-gradient(to right, rgb(209, 235, 37), rgb(228, 44, 75), rgb(241, 123, 39));
     color: rgb(127, 15, 73);
     text-align: center;
-    padding: 0.5rem 0; /* Adjusted padding */
+    padding: 0.5rem 0; 
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 1rem; 
 }
 
 footer .container {
@@ -228,7 +230,7 @@ footer .social-links li {
 footer .social-links li a {
     color: rgb(127, 15, 73);
     text-decoration: none;
-    font-size: 1.3rem; /* Adjusted font size */
+    font-size: 1.3rem; 
 }
 
 footer .social-links li a:hover {
