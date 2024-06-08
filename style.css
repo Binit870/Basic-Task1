@@ -86,7 +86,9 @@ header nav ul li a:hover {
     margin: 0 auto;
     padding: 0 1rem;
 }
-
+#about .container .about-image{
+    width: 100%;
+}
 #about h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -163,6 +165,7 @@ header nav ul li a:hover {
 #contact form {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center align form elements */
     gap: 1rem;
 }
 
@@ -176,8 +179,6 @@ header nav ul li a:hover {
 
 #contact form button {
     padding: 1rem;
-    margin-left: 1.6rem;
-    margin-bottom: 1.3rem;
     background: linear-gradient(to right,  rgb(199, 22, 54), rgb(143, 65, 9));
     color: rgb(182, 207, 41);
     border: none;
@@ -185,7 +186,6 @@ header nav ul li a:hover {
     cursor: pointer;
     font-size: 1.5rem;
     width: 20vw;
-    align-items: center;
 }
 
 #contact form button:hover {
