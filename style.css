@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(to right, rgb(157, 175, 34), rgb(228, 44, 75), rgb(241, 123, 39));
+    color: white;
+    padding: 0.5rem 0; /* Adjusted padding */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem; /* Adjusted font size */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo img {
+    width: 80px; /* Adjusted size */
+    height: 60px; /* Adjusted size */
+    border-radius: 50%; /* Adjusted size */
+    margin-right: 1rem;
+}
+
+header h1 {
+    flex-grow: 1;
+    font-size: 1.7rem; /* Adjusted font size */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.25rem 1rem; /* Adjusted padding */
+    font-size: 1.2rem; /* Adjusted font size */
+}
+
+header nav ul li a:hover {
+    color:rgb(19, 248, 7);
+}
+.green-bold{
+   font:bold;
+   color:rgb(19, 248, 7);
+}
+
+.container {
+    padding-top: 80px; /* Adjust this value based on the header height to prevent content from being hidden */
+}
+
+#about {
+    background: linear-gradient(to left,  rgb(152, 12, 38), rgb(129, 58, 8));
+    color: white;
+    text-align: center;
+    padding: 10rem 1rem;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#about a{
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(43, 153, 217);
+}
+#about a:hover{
+    color:rgb(19, 248, 7);
+}
+#products {
+    background: linear-gradient(to right,  rgb(125, 11, 32), rgb(97, 46, 11));
+    padding: 2rem;
+    text-align: center;
+    color: white; /* Ensure text is readable on background image */
+}
+
+#products .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#products h2 {
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.product-item {
+    background: linear-gradient(to left,  rgb(152, 12, 38), rgb(129, 58, 8)); /* Semi-transparent background for readability */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+#contact {
+    background: linear-gradient(to left,  rgb(162, 20, 46), rgb(162, 74, 12));
+    padding: 5rem 1rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+#contact .container h2{
+    color: white;
+    margin-bottom: 2rem;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 1rem;
+    border: 1px solid #c98311;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact form button {
+    padding: 1rem;
+    margin-left: 1.6rem;
+    margin-bottom: 1.3rem;
+    background: linear-gradient(to right,  rgb(199, 22, 54), rgb(143, 65, 9));
+    color: rgb(182, 207, 41);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 20vw;
+    align-items: center;
+}
+
+#contact form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(209, 235, 37), rgb(228, 44, 75), rgb(241, 123, 39));
+    color: rgb(127, 15, 73);
+    text-align: center;
+    padding: 0.5rem 0; /* Adjusted padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+footer .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+footer .social-links li {
+    display: inline;
+}
+
+footer .social-links li a {
+    color: rgb(127, 15, 73);
+    text-decoration: none;
+    font-size: 1.3rem; /* Adjusted font size */
+}
+
+footer .social-links li a:hover {
+    color: rgb(127, 204, 39);
+}
